@@ -22,4 +22,14 @@ todoList.addEventListener("submit", (e) => {
     let list = document.createElement("li");
     list.innerHTML = addInput.value;
     addList.appendChild(list);
+    addInput.value = ''; // 입력 후 빈값으로 초기화
 })
+
+const isEmpty = function(value){
+    if (value === " " || value === null || value === undefined 
+    || (value !== null && typeof value === "object" && !Object.keys(value).length)) {
+        return true
+    } else {
+        return false
+    }
+};
