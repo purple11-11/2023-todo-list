@@ -1,4 +1,17 @@
+html,
+body {
+  width: 100vh;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  border: none;
+  overflow: auto; /* 스크롤바 표시 지정 */
+}
 /* <li> 기호 없애기 */
 li {
-    list-style: none;
+  list-style: none;
+}
+
+ul {
+  justify-content: space-between;
 }

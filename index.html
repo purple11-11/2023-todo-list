@@ -1,31 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <script defer src="TodoList.js"></script>
     <title>TodoList</title>
-</head>
+  </head>
 
-<!-- 1. input에 할 일 입력 후 추가 버튼을 누르면 리스트 추가하기 -->
-<!-- 2. 아래 링크 보면서 개인 git todolist repository 생성 -->
-<!-- 3. 작업 내용 todolist에 push -->
-<!-- 4. input 요소 추가 후 남겨진 텍스트 빈값으로 초기화 -->
-<!-- 5. input 빈값이 있을 경우 validation check -->
-<body>
+  <!-- 1. input에 할 일 입력 후 추가 버튼을 누르면 리스트 추가하기 -->
+  <!-- 4. input 요소 추가 후 남겨진 텍스트 빈값으로 초기화 -->
+  <!-- 5. input 빈값이 있을 경우 validation check -->
+  <body>
     <header>
-        <h1>TodoList</h1>
+      <h1>TodoList</h1>
     </header>
     <div>
-        <form>
-            <input type="text" placeholder="할 일을 입력해 주세요.">
-            <button type="submit">추가</button>
-        </form>
+      <form>
+        <input type="text" placeholder="할 일을 입력해 주세요." />
+        <button type="submit">추가</button>
+      </form>
     </div>
     <div>
-        <ul id="result"></ul>
+      <ul></ul>
     </div>
-</body>
+  </body>
 </html>
